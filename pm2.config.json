@@ -2,6 +2,6 @@
     "apps": [{
         "name": "RealWorld",
         "script": "yarn", 
-        "args": "strat"
+        "args": "start"
     }]
 }
