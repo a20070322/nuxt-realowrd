@@ -208,6 +208,7 @@ export default {
   },
   methods: {
     async onFavorite(article) {
+      // console.log(article)
       article.favoriteDisabled = true;
       if (article.favorited) {
         await delFavorite(article.slug);
